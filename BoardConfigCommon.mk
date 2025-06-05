@@ -144,3 +144,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Include vendor board config
 include vendor/nokia/msm8998-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
